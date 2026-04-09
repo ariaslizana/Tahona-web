@@ -1,35 +1,81 @@
-# Tahona-web
-Tahona pan Masa madre
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Tahona - Pan de Masa Madre</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            color: #8B4513;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            margin: 40px auto;
-            width: 80%;
-            border-radius: 10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Tahona - Pan de Masa Madre</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #8B4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    padding: 40px;
+    text-align: center;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 12px 20px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+</style>
 </head>
+
 <body>
 
-<div class="card">
+<header>
     <h1>🍞 Tahona</h1>
-    <h2>Pan de Masa Madre</h2>
-    <p>Hecho con amor, fermentación natural y tradición</p>
-</div>
+    <p>Pan de masa madre artesanal</p>
+</header>
 
-</body>
-</html>
+<section class="hero">
+    <h2>Pan real. Sin químicos. Hecho en casa.</h2>
+    <p>Pedidos por WhatsApp</p>
+    <a class="boton" href="https://wa.me/569XXXXXXXX" target="_blank">
+        Pedir ahora
+    </a>
+</section>
+
+<section class="productos">
+
+    <div class="card">
+        <h3>Pan Campesino</h3>
+        <p>Crujiente por fuera, suave por dentro</p>
+        <p><strong>$3.500</strong></p>
+    </div>
+
+    <div class="card">
+        <h3>Pan
