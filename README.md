@@ -58,13 +58,13 @@ footer {
 
 <header>
     <h1>🍞 Tahona</h1>
-    <p>Pan de masa madre artesanal</p>
+    <p>Pan de masa madre integral artesanal</p>
 </header>
 
 <section class="hero">
     <h2>Pan real. Sin químicos. Hecho en casa.</h2>
     <p>Pedidos por WhatsApp</p>
-    <a class="boton" href="https://wa.me/569XXXXXXXX" target="_blank">
+    <a class="boton" href="https://wa.me/56941286390" target="_blank">
         Pedir ahora
     </a>
 </section>
